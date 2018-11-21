@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Scientific Calculator</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="cal.css">
+</head>
+
+<body>
+    <h1>Scientific Calculator</h1>
+    <h2> (JAVASCRIPT) </h2>
+
+    <form name="calculator">
+
+        <table class="calculator" cellspacing="0" cellpadding="100">
+            <tr>
+                <td colspan="5"><input type="textbox" id="display" name="display" size="28" maxlength="20" placeholder="0"></td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" class="btnc" value="C" id="clear"> C </button>
+                </td>
+                <td>
+                    <button type="button" class="btn1" value="backs" onclick="back()"> &lt; </button>
+                </td>
+                <td>
+                    <button type="button" class="btn2" value="=" id="qual" onclick="result()"> = </button>
+                </td>
+                <td>
+                    <button type="button" class="btnm" value="per" id="per"> &#37; </button>
+                </td>
+                <td>
+                    <button type="button" class="btnm" value="pi" id="pi"> &pi; </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td><button type="button" class="btnNum" value="7" id="seven"> 7 </button>
+                </td>
+                <td><button type="button" class="btnx" value="8" id="eight"> 8 </button>
+                </td>
+                <td><button type="button" class="btnNum1" value="9" id="nine"> 9 </button>
+                </td>
+                <td><button type="button" class="btnOpps" value="exp" id="exp"> x&#94; </button>
+                </td>
+                <td><button type="button" class="btnm" value="&divide;" id="devide" onclick="div()"> / </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td><button type="button" class="btnNum" value="4" id="four"> 4 </button>
+                </td>
+                <td><button type="button" class="btnx" value="5" id="five"> 5 </button>
+                </td>
+                <td><button type="button" class="btnNum1" value="6" id="six"> 6 </button>
+                </td>
+                <td><button type="button" class="btnOpps" value="ln" id="log"> log </button>
+                </td>
+                <td><button type="button" class="btnm" value="*" id="multi" onclick="mul()"> &times; </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td><button type="button" class="btnNum" value="1" id="one"> 1 </button>
+                </td>
+                <td><button type="button" class="btnx" value="2" id="two"> 2 </button>
+                </td>
+                <td><button type="button" class="btnNum1" value="3" id="three"> 3 </button>
+                </td>
+                <td><button type="button" class="btnOpps" value="root" id="root"> &radic; </button>
+                </td>
+                <td><button type="button" class="btnm" value="-" id="minus" onclick="sub()"> &minus; </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td><button type="button" class="btnp" value="plusMinus" id="pm" onclick="mix('t')"> &plusmn; </button>
+                </td>
+                <td><button type="button" class="btnx" value="0" id="zero"> 0 </button>
+                </td>
+                <td><button type="button" class="btncs" value="." id="dot"> &#46; </button>
+                </td>
+                <td><button type="button" class="btnOpps" value="squar" id="squar"> x&#50; </button>
+                </td>
+                <td><button type="button" class="btnm" value="+" id="plus" onclick="add()"> &#43; </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td><button type="button" class="btnp" value="(" id="obr"> &#40; </button>
+                </td>
+                <td><button type="button" class="btnb" value=")" id="cbr"> &#41; </button>
+                </td>
+                <td><button type="button" class="btncs" value="cos" id="cos"> Cos </button>
+                </td>
+                <td><button type="button" class="btns" value="sin" id="sin"> Sin </button>
+                </td>
+                <td><button type="button" class="btnt" value="tan" id="tan"> Tan </button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+    <script src="cal.js"></script>
+    <footer> &copy;copyright2017 &nbsp; Biren&nbsp; Patel</footer>
+</body>
+
+</html>

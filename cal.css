@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 5px;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+h1,
+h2 {
+    color: white;
+}
+
+.calculator {
+    position: relative;
+    top: 50px;
+    left: 740px;
+    width: 420px;
+    height: 450px;
+    background-color: #ececec;
+    box-shadow: 0px 0px 0px 2px #666;
+    border: 5px solid black;
+    border-radius: 0px;
+}
+
+#display {
+    position: relative;
+    left: 1px;
+    top: 2px;
+    width: 320px;
+    height: 40px;
+    text-align: right;
+    background-color: black;
+    border: 3px solid grey;
+    font-size: 18px;
+    color: aliceblue;
+    border-style: ridge;
+}
+
+
+.btnc {
+    position: relative;
+    left: 15px;
+    font-size: 14px;
+    margin: auto;
+    width: 50px;
+    height: 40px;
+    border-style: groove;
+    font-size: 1.2em;
+}
+
+.btn1 {
+    position: relative;
+    left: 2px;
+    width: 50px;
+    height: 40px;
+    border-style: groove;
+    margin: auto;
+    font-size: 1.2em;
+}
+
+.btn2 {
+    position: relative;
+    right: 14px;
+    width: 50px;
+    margin: auto;
+    height: 40px;
+    border-style: groove;
+    font-size: 1.2em;
+}
+
+.btnNum {
+    position: relative;
+    left: 23px;
+    background-color: darkgray;
+    color: black;
+    font-size: 14px;
+    font-weight: bolder;
+    margin: auto;
+    width: 70px;
+    height: 40px;
+    border-style: outset;
+    font-size: 1.1em;
+}
+
+.btnNum1 {
+    position: relative;
+    right: 10px;
+    background-color: darkgray;
+    color: black;
+    font-size: 14px;
+    font-weight: bolder;
+    margin: auto;
+    width: 70px;
+    height: 40px;
+    border-style: outset;
+    font-size: 1.1em;
+}
+
+.btnx {
+    position: relative;
+    left: 7px;
+    background-color: darkgray;
+    color: black;
+    font-size: 14px;
+    font-weight: bolder;
+    margin: auto;
+    width: 70px;
+    height: 40px;
+    border-style: outset;
+    font-size: 1.1em;
+}
+
+.btnOpps {
+    position: relative;
+    right: 20px;
+    background-color: darkgray;
+    font-size: 14px;
+    margin: auto;
+    width: 60px;
+    height: 40px;
+    font-size: 1.1em;
+    border-style: outset;
+}
+
+.btnt {
+    position: relative;
+    right: 23px;
+    background-color: darkgray;
+    font-size: 14px;
+    margin: auto;
+    width: 60px;
+    height: 40px;
+    font-size: 1.1em;
+    border-style: outset;
+}
+
+.btns {
+    position: relative;
+    right: 23px;
+    background-color: darkgray;
+    font-size: 14px;
+    margin: auto;
+    width: 60px;
+    height: 40px;
+    font-size: 1.1em;
+    border-style: outset;
+}
+
+.btnm {
+    position: relative;
+    right: 24px;
+    background-color: darkgray;
+    font-size: 14px;
+    margin: auto;
+    width: 60px;
+    height: 40px;
+    font-size: 1.4em;
+    border-style: outset;
+}
+
+
+.btncs {
+    position: relative;
+    right: 11px;
+    background-color: darkgray;
+    font-size: 14px;
+    margin: auto;
+    width: 70px;
+    height: 40px;
+    font-size: 1.1em;
+    border-style: outset;
+}
+
+.btnp {
+    position: relative;
+    left: 23px;
+    background-color: darkgray;
+    font-size: 14px;
+    margin: auto;
+    width: 70px;
+    height: 40px;
+    font-size: 1.4em;
+    border-style: outset;
+}
+
+.btnb {
+    position: relative;
+    left: 7px;
+    background-color: darkgray;
+    font-size: 14px;
+    margin: auto;
+    width: 70px;
+    height: 40px;
+    font-size: 1.4em;
+    border-style: outset;
+}
+
+footer {
+    position: relative;
+    top: 360px;
+    color: white;
+    margin-bottom: 50px;
+}
